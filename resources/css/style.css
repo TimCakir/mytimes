@@ -1,0 +1,60 @@
+/* CSS Stylesheet for mytimes */
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.lead-story .image-content {
+  background-image: url(resources/Images/img-story-main.png);
+}
